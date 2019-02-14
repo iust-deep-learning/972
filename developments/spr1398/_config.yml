@@ -8,7 +8,7 @@ description: |
 
 message: Register to our Google <a href="https://groups.google.com/forum/#!forum/gp-id">groups page</a> to get course notifications via email.
 baseurl: "/spr1398" # the subpath of your site, e.g. /blog/
-url: "http://iust-deep-learning.github.io/" # the base hostname & protocol for your site
+url: "https://iust-deep-learning.github.io/" # the base hostname & protocol for your site
 githubdir: "iust-deep-learning/iust-deep-learning.github.io"
 
 # Author/user information
