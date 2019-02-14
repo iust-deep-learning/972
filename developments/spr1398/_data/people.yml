@@ -1,0 +1,16 @@
+instructor:
+  name: Mohammad Taher Pilehvar
+  profile_pic: /_images/pp/inst.jpg
+
+teaching_assistants:
+  - name: Amirhossein Kazemnejad
+    profile_pic: /_images/pp/ta01.jpg
+
+  - name: Kiamehr Razaee
+    profile_pic: /_images/pp/ta02.jpg
+
+  - name: Babak Badnava
+    profile_pic: /_images/pp/ta03.jpg
+
+  - name: Mahya Khazaei
+    profile_pic: /_images/pp/ta04.jpg
