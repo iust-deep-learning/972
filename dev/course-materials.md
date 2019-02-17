@@ -8,10 +8,14 @@ permalink: /course-materials/
 
 ## Book
 
+A part of this course is based on "Deep Learning with Python" by Francois Chollet.
+Subsequent sources will be added to the following section.
+ 
 <!-- Alan Turing and Noam Chomsky: Very Famous Book -->
 
 ## Additional Course Materials
 
-<!-- * If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks! -->
+* Andrew Ng - [deeplearning.ai](www.deeplearning.ai) and [Coursera course](https://www.coursera.org/specializations/deep-learning)
+* [Deep learning](https://eu.udacity.com/course/deep-learning--ud730) course at Udacity
+* [Deep Learning textbook](https://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio and Aaron Courville  
 
