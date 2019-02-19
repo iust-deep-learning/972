@@ -16,4 +16,4 @@ Subsequent sources will be added to the following section.
 * Andrew Ng - [deeplearning.ai](www.deeplearning.ai) and [Coursera course](https://www.coursera.org/specializations/deep-learning)
 * [Deep learning](https://eu.udacity.com/course/deep-learning--ud730) course at Udacity
 * [Deep Learning textbook](https://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio and Aaron Courville  
-
+* [Google Colab tutorial]({{ "/static_files/colab_tutorial.ipynb" | prepend: site.baseurl }}) - An introduction to Google Colab, How to upload files? How to connect to Google Drive and Resume training.
