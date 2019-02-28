@@ -1,4 +1,4 @@
 #! /bin/bash
 jekyll build -d ../tmp
-mv ../tmp/* ../
+cp -r ../tmp/* ../
 rm -rf ../tmp
