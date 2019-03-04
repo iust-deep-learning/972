@@ -19,15 +19,17 @@ You can download the lectures here (in PDF format). I will try to upload lecture
     </div>
     {% endif %}
     <div class="content">
-        <span><a href="{{ lecture.slides | prepend: site.baseurl }}">{{ lecture.title }}</a></span><br>
+        <span><a href="
+            {% if lecture.slides contains '://' %}
+              {{ lecture.slides }} 
+            {% else %}
+              {{ lecture.slides | prepend: site.baseurl }} 
+            {% endif %}">{{ lecture.title }}</a></span><br>
 
         <strong>tl;dr:</strong> {{ lecture.tldr }}
         <br/>
-        <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif;">
-            [<a title="Download slides (pdf)" href="{{ lecture.slides | prepend: site.baseurl }}">slides</a>]
-            {% if lecture.notes %}
-            [<a title="Download notes (zip)" href="{{ lecture.notes | prepend: site.baseurl }}">notes</a>]
-            {% endif %}
+        <strong>
+        {% include lecture_links.html lecture=lecture %}
         </strong>
     </div>
 </div>
