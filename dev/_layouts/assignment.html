@@ -17,6 +17,9 @@ title: page.title
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
       {% endif %}
+      {% if page.preview %}
+      [<a href="{{ page.preview | prepend: site.baseurl }}">show preview</a>]
+      {% endif %}
       {% if page.attachment %}
       [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
       {% endif %}
