@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Project Guidelines - Deep Learning / Spring 1398 </title>
+  <meta name="description" content="Instructor: Mohammad Taher Pilehvar
+">
+  
+  <link rel="stylesheet" href="/972/_css/main.css">
+  <link rel="canonical" href="https://iust-deep-learning.github.io//972/final_project/guidelines/">
+  <link rel="alternate" type="application/rss+xml" title="Iran University of Science and Technology" href="https://iust-deep-learning.github.io//972/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="/972/_js/particles.min.js"></script>
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="wrapper" style="z-index:1">
+      <table><tr>
+          <td><img style="opacity: 0.9;" width="75" src="/972/_images/iust.png" valign="middle"></td>
+          <td style="padding-left:10px;"><a style="font-size: 15px;color: #ffffffc7;" class="site-title" href="http://www.iust.ac.ir">Iran University of Science and Technology</a>
+          <br/>
+          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><b>Deep Learning</b></span>
+          <br/>
+          <span style="color: #ffffffb3;font-size: 12px;font-weight: bold;margin-top: 10px;display: block;">Spring 1398</span>
+          </td>
+        </tr></table>
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+    <li><a class="page-link" href="/972/"><i class="fa fa-home fa-lg"></i> Home</a></li>
+    <li><a class="page-link" href="/972/schedule/"><i class="fas fa-calendar-alt"></i> Schedule</a></li>
+    <li><a class="page-link" href="/972/lectures/"><i class="fas fa-book-reader"></i> Lectures</a></li>
+    <li><a class="page-link" href="/972/assignments/"><i class="fas fa-user-graduate"></i> Assignments</a></li>
+    <li><a class="page-link" href="/972/final_project/"><i class="fas fa-user-graduate"></i> Final Project</a></li>
+    <li><a class="page-link" href="/972/course-materials/"><i class="fas fa-book"></i> Course Materials</a></li>
+</ul>
+
+     </div>  
+    </nav>
+
+  </div>
+  <div id="particles-js" style="height:200px; z-index: 0; position: absolute; top:0; right: 0; left: 0;" />
+  <script>
+      particlesJS('particles-js',
+      
+      {
+      "particles": {
+        "number": {
+          "value": 200,
+          "density": {
+            "enable": true,
+            "value_area": 3946
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": false,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 100,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+    </script>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post" style="margin-right: auto;max-width: 650px;margin-left: auto;">
+
+  <header class="post-header">
+    <h1 class="post-title">Project Guidelines</h1>
+  </header>
+
+  <article class="post-content">
+    <div style="color: gray">
+<h4>Updates</h4>
+<ul>
+  <li>1397/12/21: First release.</li>
+</ul>
+<br />
+</div>
+
+<p>The course project is one of those great opportunities in which you can apply your newly learned skills towards real-life problems. It offers you the chance to build a Deep Learning pipeline, tune and debug a machine learning model, and experiment with one of the world’s most successful Computer Science approaches. It is also responsible for a significant portion of your final grade.</p>
+
+<p>We strongly suggest you do the project in a team.  A team can have a maximum of <strong>two members</strong> and remember we will review each member’s contribution individually. For the project topic, there are two options, you can either define the project based on our default topics or implement your own idea. It is OK to use your thesis as the course project but <strong>keep in mind</strong> that you still need to match up our requirements such as writing a final report, submitting the project proposal, and reporting the progress on the corresponding milestone.</p>
+
+<p>Additionally, we have to make sure your idea is feasible and also in the scope of the course. Thus before starting to work on your project, the proposal should be approved by us.</p>
+
+<p>This document will guide you through milestones as well as their evaluation policy. Please read them carefully and reach us if you have any question.</p>
+
+<h1 id="proposal">Proposal</h1>
+
+<p>No matter how you came with the project idea (whether it’s towards your Master/PhD thesis or one of the pre-defined topics), we need you to complete the proposal. It shows how well you have understood the problem and how well you have explored the problem space. We’ll review the proposal and inform you whether we think the scope of the project is too narrow or too wide.</p>
+
+<ol>
+  <li><strong>Title:</strong> A statement to briefly explain the problem/task and a solution you’re going to propose. Example: “Grammatical error corrections using an augmented sequence to sequence model”.</li>
+  <li><strong>Problem</strong> <strong>d</strong><strong>efinition:</strong> Describe what problem you are going to solve. What goal(s) you’re trying to achieve.  Why do you think it is important/challenging? Explain the inputs and outputs of your system in detail. Give us an example if applicable.</li>
+  <li><strong>Dataset:</strong> A high-quality dataset is a critical prerequisite for deep learning. Please specify the dataset you will use, also include its size and license (if you want to evaluate your model on several datasets, go ahead and list all of them). If you need any preprocessing step, please describe it. Sometimes it is necessary to collect data yourself. Explain how you are going to do that and how you plan to label the collected data (if applicable).</li>
+  <li><strong>Evaluation</strong> <strong>m</strong><strong>etric:</strong> This is a measurement of how well your model performed its desired task. It should be a well-defined, numerical, comparable, automatic evaluation metric (for example: F1-measure or BLEU score).</li>
+  <li><strong>Baseline</strong> <strong>m</strong><strong>ethod:</strong> Describe a baseline method for solving this problem. Make it clear that you will implement it yourself, or will use a previously published score. Baseline is a trivial approach. The first idea that can be thought. You suggest an algorithm that should be better than the baseline at least. For example feeding a word with its neighbors is a baseline to name entity recognition task.</li>
+</ol>
+
+<p>Your submission is first examined in terms of an accurate description of the required fields. It will also be judged on creativity in defining the problem and the quality of your write-up.</p>
+
+<p><em>We will post pre-defined topics on our Google Group page.</em></p>
+
+<p><strong># Deliverables:</strong></p>
+<ul>
+  <li>You need to submit the propsoal here: <a href="https://goo.gl/forms/0Qtd8K7zVBTxscQ12">https://goo.gl/forms/0Qtd8K7zVBTxscQ12</a></li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="progress-report">Progress Report</h1>
+
+<p>Up until this point, you should have implemented a preliminary  and simple version of your idea, this implementation doesn’t have to be fully optimized at this point,  and it doesn’t have to contain all the features you want yet.
+You must report these items:</p>
+
+<ol>
+  <li><strong>Proposed</strong> <strong>a</strong><strong>lgorithm</strong>: Describe your proposed algorithm for solving the problem in detail, use a concrete example to show how your model and algorithm work. Your description must be precise and specific (what are your model’s inputs, outputs, variables, etc.).</li>
+  <li><strong>Results:</strong> Report the experimental results of using this basic version of implementation and compare the results with the baseline methods. Descriptions should be quantitative (using tables, metrics, plots, etc.). Explain whether you were expecting these results or not.</li>
+  <li><strong>Performance</strong> <strong>i</strong><strong>mprovement</strong> <strong>p</strong><strong>lan</strong>: Explain your plan for improving the results in the future (e.g. you can look for the flaws in the proposed method, try to find a way to fix them, or you can simply search for a more advanced model than what you already have). Note that you must implement these suggestions and put them to use for the final version.</li>
+</ol>
+
+<p><strong># Deliverables:</strong></p>
+<ul>
+  <li>A write-up in PDF format.</li>
+  <li>Submit the PDF file via <a href="https://goo.gl/forms/obXWuTjijTxgOoQO2">https://goo.gl/forms/obXWuTjijTxgOoQO2</a>.</li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="final-report">Final Report</h1>
+
+<p>Your final report is the most important part of your project, and it must be comprehensive, precise, and clear. It demonstrates how well you understood the problem and the changes that you might face to solve such a problem. It also conveys your understanding of the course’s materials. Your report should contain the following parts.</p>
+
+<ol>
+  <li><strong>Abstract</strong>: You should give a brief introduction of your problem and the solution that you have provided</li>
+  <li><strong>Introduction</strong>: In this part, you should explain the problem or the task you want to solve and demonstrate the challenges that you may face during solving this problem.</li>
+  <li><strong>Related works</strong><strong>/Background</strong>: A concise explanation of two to three recent works that had proposed an approach to overcome or solve the problem. These works might have found a solution for different settings of this problem.</li>
+  <li><strong>Proposed method</strong>: In this section, you must provide a comprehensive explanation of your final improved method to solve this problem. Some of the things that you should describe in the report are the following items:</li>
+  <li>Any kind of preprocessing or normalization (if you have used).</li>
+  <li>The architecture of the neural network that you have used. It is better to demonstrate this with a graph.</li>
+  <li><strong>Results</strong>: At first, you should describe the dataset that you have used, and then, you must describe the experiments that you maid, and its results. It is better to test your proposed method in different settings and with various parameters.</li>
+  <li><strong>Discussion</strong>: In this section, you will discuss your proposed method to solve the problem. Some of the questions that you might find useful to answer are:</li>
+  <li>Why is this specific type of Deep Neural Networks suitable for this task?</li>
+  <li>What are the benefits of your proposed model against other approaches?</li>
+  <li><strong>References</strong>: You must cite all of the papers and codes that you have used in your project.</li>
+</ol>
+
+<p>You will not be penalized if your system performs poorly, if you analyze the model output and explain why it failed which is much more important to us. Your report will be graded based on its quality. By quality, we mean how well you explained, expanded, and conveyed your problem and its challenges; how well you could persuade usage of a specific model for solving a particular task, your results and implementation, your writing quality, and your understanding of the problem and Deep Learning tools.</p>
+
+<p><strong>Note</strong>: If you have used any paper or code in your project you must cite that paper/code, and you also must clarify your contribution to the code/paper.</p>
+
+<p><strong>Note</strong>: We have prepared a template for your final report, and you should put your report in this template. This template has been prepared in Persian and English, and you are free to write in any language you are comfortable with.</p>
+
+<p>To have an estimate of how much and how well you should write this report please look at the <a href="http://cs229.stanford.edu/proj2018/">here</a> and <a href="http://cs229.stanford.edu/proj2017/">here</a></p>
+
+<p><strong># Deliverables:</strong></p>
+<ul>
+  <li>Your write-up in PDF format.</li>
+  <li>Github repository for your project, Put a link to this website on the description.</li>
+  <li>Jupyter notebook of your project with reproducable experiments.</li>
+  <li>Detailed description of each member’s responsibilities.</li>
+  <li>Submit the package via <a href="https://goo.gl/forms/7KCVOHCHymL45XeE2">https://goo.gl/forms/7KCVOHCHymL45XeE2</a></li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="presentation">Presentation</h1>
+<p>After all you should present your research, developments and results in a <strong>15</strong><strong>-</strong><strong>minuet</strong> <strong>presentation</strong>. You have to present the problem, describe the solution, challenges, show the results and a demo. We are interested in seeing charts, graphs and various examples. The main factor for score calculation is the quality of presentation.</p>
+
+<p>For examples consider “<a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0">Q</a><a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0">uestion</a> <a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0"></a><a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0">answer</a><a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0">ing</a> <a href="https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&amp;version=v2.0">super model</a>” as the subject of project.</p>
+
+<ul>
+  <li>First you have to define the problem and explain why it is needed: The question answering super model receives an input context (~300 words) and a question. Then, the system has to search the context and find an answer. In this step of presentation it’s good to quickly show the demo and test it for audience.</li>
+  <li>Then explain the applications; for example  one can ask a a bot a question and the bot should look up all relevant web page in search of an answer. Then, the answers should be represented  in terms of a few meaningful sentences that may not have existed in those web pages.</li>
+  <li>Then you should answer this question: Is deep-learning suitable for solving this problem?</li>
+  <li>Explain the specific method that you used and why it is suitable (LSTM in this example). After this you can show charts of results and how you measure this model. This is when we are interested in listening to details about your network. Also you can be creative in your presentation to make it more interesting.</li>
+  <li>Show us the analysis you have performed on the outputs of your model. Explain the weaknesses and strengths of your model. Describe the challenges you faced and how you have overcome them. Also, if applicable, explain how you collected the dataset?</li>
+</ul>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Iran University of Science and Technology</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+          <ul class="contact-list">
+          <li><strong>Iran University of Science and Technology</strong></li>
+			<li></li>
+          <li><a href="mailto:instructor-last-name@iust.ac.ir">instructor-last-name@iust.ac.ir</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+ 
+
+         <p class="text">
+School of Computer Engineering<br />
+Iran University of Science and Technology<br />
+Tehran, Iran<br />
+
+      </div>
+
+      <div class="footer-col  footer-col-3">
+       <ul class="social-media-list">
+     
+
+          
+
+          
+  <li>
+    <a href="https://twitter.com/tpilehvar">
+      <i class="fab fa-twitter" style="color:gray"></i> tpilehvar
+    </a>
+  </li>
+
+
+          
+
+          
+
+          
+  <li>
+    <a href="http://webpages.iust.ac.ir/pilehvar/">
+      <i class="fas fa-globe" style="color:gray"></i> webpages.iust.ac.ir/pilehvar/
+    </a>
+  </li>
+
+
+
+
+       
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
