@@ -16,4 +16,14 @@ Subsequent sources will be added to the following section.
 * Andrew Ng - [deeplearning.ai](www.deeplearning.ai) and [Coursera course](https://www.coursera.org/specializations/deep-learning)
 * [Deep learning](https://eu.udacity.com/course/deep-learning--ud730) course at Udacity
 * [Deep Learning textbook](https://www.deeplearningbook.org/) - Ian Goodfellow, Yoshua Bengio and Aaron Courville  
-* [Google Colab tutorial]({{ "/static_files/colab_tutorial.ipynb" | prepend: site.baseurl }}) - An introduction to Google Colab, How to upload files? How to connect to Google Drive and resume training.
+* A review of [optimization techniques](http://ruder.io/optimizing-gradient-descent/) for DL 
+* A review of [Transfer learning](http://ruder.io/transfer-learning/)
+
+## Tutorials
+
+1. [Google Colab tutorial]({{ "/static_files/colab_tutorial.ipynb" | prepend: site.baseurl }}) - An introduction to Google Colab, How to upload files? How to connect to Google Drive and resume training.
+2. Fully connected networks for [predicting house prices](https://colab.research.google.com/drive/1NBpidkDFWrUhTNdI1TBbbxyXssL75Jnk), [sentiment analysis](https://colab.research.google.com/drive/17lbQlcRsVJ9ieDxw2TDCuzbdRxim02VG), [text classification](https://colab.research.google.com/drive/1B0Eh_MREts7OYmvqDcd6h4tGjLAIXLn8), and [image classification](https://colab.research.google.com/drive/1JRGkW36la93hyaMucSLStNIT1kEWB58J) 
+3. [MNIST classification](https://colab.research.google.com/drive/1iUuMLTMwP-aeErP6ZKueAiBKXJ5CLNcV) using ConvNets
+4. [ConvNet for image classification](https://colab.research.google.com/drive/18DnD2UAy-YaZkPrlAK2VU3OyDuhYfp9w), data augmentation.
+5. [ConvNet pre-training](https://colab.research.google.com/drive/1pzTmkKlins9jfx-wsqoD7cd0b5kngQm4)
+6. ConvNet visualization: [activations](https://colab.research.google.com/drive/1iUuMLTMwP-aeErP6ZKueAiBKXJ5CLNcV), [filters](https://colab.research.google.com/drive/1jNZduDcpwzMDiJhEFgi9SXOl0H18wlRU), and [heatmaps](https://colab.research.google.com/drive/1KcuedaFFXfC2P_22o0kfzr2RXHqtp36v)
