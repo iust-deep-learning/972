@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Iran University of Science and Technology</title>
+    <title>Iran University of Science and Technology (IUST)</title>
     <description>Instructor: Mohammad Taher Pilehvar
 </description>
     <link>https://iust-deep-learning.github.io//972/</link>
     <atom:link href="https://iust-deep-learning.github.io//972/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2019 09:22:35 +0430</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 09:22:35 +0430</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:40:40 +0430</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:40:40 +0430</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
   </channel>
