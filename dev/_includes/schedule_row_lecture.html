@@ -11,7 +11,7 @@
 </div>
 <div class="col col-4" data-label="Course Material">
     {% if include.event.suggested_readings %}
-    <p style="margin-bottom: 2px">Suggested Readings:</p>
+    <p style="margin-bottom: 2px"></p>
     <ul>
         {% for m in include.event.suggested_readings %}
         <li class="raw_li">{% if m.url %}<a href="{{ m.url }}">{{ m.title }}</a>{% else %}{{ m.title }}{%
