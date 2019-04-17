@@ -9,7 +9,7 @@
   background: #004175;
   position: relative; }
 
-.site-title {
+.site-title, .site-title a {
   font-size: 26px;
   /* 		margin-top: 15px;
       line-height: 40px; */
@@ -19,9 +19,9 @@
   font-weight: 500;
   font-family: 'Titillium Web', sans-serif;
   color: #ffffff; }
-  .site-title, .site-title:visited {
+  .site-title, .site-title:visited, .site-title a, .site-title a:visited {
     color: #ffffff; }
-  .site-title, .site-title:hover {
+  .site-title, .site-title:hover, .site-title a, .site-title a:hover {
     text-decoration: none; }
 
 .site-header .wrapper {
