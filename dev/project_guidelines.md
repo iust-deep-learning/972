@@ -8,6 +8,7 @@ permalink: /final_project/guidelines/
 <h4>Updates</h4>
 <ul>
   <li>1397/12/21: First release.</li>
+  <li>1397/2/9: Added a presentation part to progress report section</li>
 </ul>
 <br>
 </div>
@@ -40,7 +41,7 @@ Your submission is first examined in terms of an accurate description of the req
 
 <br>
 
-# Progress Report
+# Progress Report (30%)
 
 Up until this point, you should have implemented a preliminary  and simple version of your idea, this implementation doesn’t have to be fully optimized at this point,  and it doesn’t have to contain all the features you want yet.
 You must report these items:
@@ -52,10 +53,15 @@ You must report these items:
 **# Deliverables:**
 * A write-up in PDF format.
 * Submit the PDF file via [https://goo.gl/forms/obXWuTjijTxgOoQO2](https://goo.gl/forms/obXWuTjijTxgOoQO2).
+* 5 minute presentation on the current state of your project (no slides) 
+
+Scores:
+1. PDF Report: 20%
+2. Presentation: 10%
 
 <br>
 
-# Final Report 
+# Final Report
 
 Your final report is the most important part of your project, and it must be comprehensive, precise, and clear. It demonstrates how well you understood the problem and the changes that you might face to solve such a problem. It also conveys your understanding of the course’s materials. Your report should contain the following parts.
 
@@ -91,7 +97,7 @@ To have an estimate of how much and how well you should write this report please
 # Presentation
 After all you should present your research, developments and results in a **15****-****minuet** **presentation**. You have to present the problem, describe the solution, challenges, show the results and a demo. We are interested in seeing charts, graphs and various examples. The main factor for score calculation is the quality of presentation.
 
-For examples consider “[Q](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)[uestion](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0) [](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)[answer](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)[ing](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0) [super model](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)” as the subject of project. 
+For examples consider “[Question answering super model](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)” as the subject of project. 
 
 - First you have to define the problem and explain why it is needed: The question answering super model receives an input context (~300 words) and a question. Then, the system has to search the context and find an answer. In this step of presentation it’s good to quickly show the demo and test it for audience. 
 - Then explain the applications; for example  one can ask a a bot a question and the bot should look up all relevant web page in search of an answer. Then, the answers should be represented  in terms of a few meaningful sentences that may not have existed in those web pages.
