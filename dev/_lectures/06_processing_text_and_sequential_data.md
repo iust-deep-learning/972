@@ -4,7 +4,7 @@ date: 2019-05-6T08:00:00+3:30
 title: Processing Text and Sequential Data
 slides: https://drive.google.com/file/d/1ZIl6zw8QYMFwcHWCP3gJ76nkqBM1KSC3/view
 tldr: "Recurrent models, SimpleRNN, LSTM, GRU, word embeddings, vanishing gradient problem, attention mechanism, and ID ConvNets"
-thumbnail: /static_files/thumbnails/lec07.jpg
+thumbnail: /static_files/thumbnails/lec06.jpg
 suggested_readings: 
       - title: IMDB sentiment analysis using MLP with pre-trained embeddings
         url: https://colab.research.google.com/drive/14V0J84Rt8QV4WyXTcuKoGA9kGaXm3dCl
