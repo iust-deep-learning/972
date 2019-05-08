@@ -27,3 +27,6 @@ Subsequent sources will be added to the following section.
 4. [ConvNet for image classification](https://colab.research.google.com/drive/18DnD2UAy-YaZkPrlAK2VU3OyDuhYfp9w), data augmentation.
 5. [ConvNet pre-training](https://colab.research.google.com/drive/1pzTmkKlins9jfx-wsqoD7cd0b5kngQm4)
 6. ConvNet visualization: [activations](https://colab.research.google.com/drive/1iUuMLTMwP-aeErP6ZKueAiBKXJ5CLNcV), [filters](https://colab.research.google.com/drive/1jNZduDcpwzMDiJhEFgi9SXOl0H18wlRU), and [heatmaps](https://colab.research.google.com/drive/1KcuedaFFXfC2P_22o0kfzr2RXHqtp36v)
+7. IMDB sentiment analysis using MLP with [pre-trained embeddings](https://colab.research.google.com/drive/14V0J84Rt8QV4WyXTcuKoGA9kGaXm3dCl), [SimpleRNN](https://colab.research.google.com/drive/19uixuq1La87tDmOww4eeYvU-zFRIOZOB), and [LSTM](https://colab.research.google.com/drive/11bS52AEXjk78WayKOV92adMq0J9HzM0k)
+8. [Temperature forecasting problem using GRUs](https://colab.research.google.com/drive/1-vq2Xjzf-ddkhpolws3mzjDnvkBHv-4R)
+9. [Text processing using 1D ConvNets](https://colab.research.google.com/drive/1rVDTKblIemh2Qlgg_ApCsAwjHG4n43E_)

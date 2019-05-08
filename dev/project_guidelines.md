@@ -61,7 +61,7 @@ Scores:
 
 <br>
 
-# Final Report
+# Final Report (50%)
 
 Your final report is the most important part of your project, and it must be comprehensive, precise, and clear. It demonstrates how well you understood the problem and the changes that you might face to solve such a problem. It also conveys your understanding of the course’s materials. Your report should contain the following parts.
 
@@ -94,7 +94,7 @@ To have an estimate of how much and how well you should write this report please
 
 <br>
 
-# Presentation
+# Presentation (20%)
 After all you should present your research, developments and results in a **15****-****minuet** **presentation**. You have to present the problem, describe the solution, challenges, show the results and a demo. We are interested in seeing charts, graphs and various examples. The main factor for score calculation is the quality of presentation.
 
 For examples consider “[Question answering super model](https://rajpurkar.github.io/SQuAD-explorer/explore/v2.0/dev/Geology.html?model=BERT%20(single%20model)%20(Google%20AI%20Language)&version=v2.0)” as the subject of project. 
