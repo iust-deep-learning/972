@@ -30,3 +30,8 @@ Subsequent sources will be added to the following section.
 7. IMDB sentiment analysis using MLP with [pre-trained embeddings](https://colab.research.google.com/drive/14V0J84Rt8QV4WyXTcuKoGA9kGaXm3dCl), [SimpleRNN](https://colab.research.google.com/drive/19uixuq1La87tDmOww4eeYvU-zFRIOZOB), and [LSTM](https://colab.research.google.com/drive/11bS52AEXjk78WayKOV92adMq0J9HzM0k)
 8. [Temperature forecasting problem using GRUs](https://colab.research.google.com/drive/1-vq2Xjzf-ddkhpolws3mzjDnvkBHv-4R)
 9. [Text processing using 1D ConvNets](https://colab.research.google.com/drive/1rVDTKblIemh2Qlgg_ApCsAwjHG4n43E_)
+10. [Keras functional API](https://colab.research.google.com/drive/1C_TR5c-WvMJE3cJSgeSCgqidqiW5XydB)
+11. [Text generation with LSTMs](https://colab.research.google.com/drive/1Z3TrPzRtyBnyGfJCejIPV4tzvz1Gpx_u)
+12. [DeepDream](https://colab.research.google.com/drive/1x5mR8poWGahWegYgYQZlxYOgwONjNAXc)
+13. [MNIST with VAE](https://colab.research.google.com/drive/1QGjUO2np6HBbbjm2Nbof885DN4IFY1dw)
+14. [GAN for frog generation](https://colab.research.google.com/drive/1XREv3bgx0YZ8cyUEfKLvS7GfL2dYBwfT)
