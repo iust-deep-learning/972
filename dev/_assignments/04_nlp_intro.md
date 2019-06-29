@@ -5,6 +5,7 @@ due: 2019-06-07T23:59:00+3:30
 title: 'Assignment #4 - NLP Intro'
 pdf: /static_files/assignments/assignment_04.ipynb
 preview: /static_files/assignments/assignment_04_preview.html
+solutions: /static_files/assignments/assignment_04_solutions.html
 ---
 In this assignment, we will investigate word vectors and their application in a window-based neural network and bag-of-words model. Also, we have a great visualization tool to explore recurrent neural networks.
 

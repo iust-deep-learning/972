@@ -5,6 +5,7 @@ due: 2019-05-10T23:59:00+3:30
 title: 'Assignment #3 - Convolutional Neural Networks'
 pdf: /static_files/assignments/assignment_03.ipynb
 preview: /static_files/assignments/assignment_03_preview.html
+solutions: /static_files/assignments/assignment_03_solutions.html
 ---
 In this assignment, you will become familiar with convolutional neural networks, batch normalization, autoencoders, Deconv layer, and an interesting application of CNN in computer vision.
 

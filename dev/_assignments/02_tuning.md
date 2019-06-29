@@ -5,6 +5,7 @@ due: 2019-03-30T23:59:00+3:30
 title: 'Assignment #2 - Hyperparameter tuning'
 pdf: /static_files/assignments/assignment_02.ipynb
 preview: /static_files/assignments/assignment_02_preview.html
+solutions: /static_files/assignments/assignment_02_solutions.html
 ---
 In this assignment, you're going to solve a machine learning problem entirely by yourself. Also, we will learn about optimizers and regularization methods.
 
