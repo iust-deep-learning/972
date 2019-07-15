@@ -80,16 +80,16 @@ Your final report is the most important part of your project, and it must be com
 
 You will not be penalized if your system performs poorly, if you analyze the model output and explain why it failed which is much more important to us. Your report will be graded based on its quality. By quality, we mean how well you explained, expanded, and conveyed your problem and its challenges; how well you could persuade usage of a specific model for solving a particular task, your results and implementation, your writing quality, and your understanding of the problem and Deep Learning tools.
 
+To have an estimate of how much and how well you should write this report please look at the [here](http://cs229.stanford.edu/proj2018/) and [here](http://cs229.stanford.edu/proj2017/)
+
 **Note**: If you have used any paper or code in your project you must cite that paper/code, and you also must clarify your contribution to the code/paper.
 
 **Note**: We have prepared a template for your final report, and you should put your report in this template. This template has been prepared in Persian and English, and you are free to write in any language you are comfortable with.
 
-**Download LaTeX Templates: [[English]({{ "/static_files/final_report_template_english.zip" | prepend: site.baseurl }})], [[Persian]({{ "/static_files/final_report_template_persian.zip" | prepend: site.baseurl }})]***
+**Download LaTeX Templates:**
+- English: [[zip]({{ "/static_files/final_report_template_english.zip" | prepend: site.baseurl }})] [[Overleaf](https://www.overleaf.com/latex/templates/iust-project-report-template-english/ndvtcyxryznf)]
+- Persian: [[zip]({{ "/static_files/final_report_template_persian.zip" | prepend: site.baseurl }})] [[Overleaf](https://www.overleaf.com/latex/templates/iust-project-report-template-persian/tjfhjwzrwdvh)]
 
-**They are ready to be uploaded on the Overleaf platform (Change the compiler to XelaTeX for the persian version)*
-
-
-To have an estimate of how much and how well you should write this report please look at the [here](http://cs229.stanford.edu/proj2018/) and [here](http://cs229.stanford.edu/proj2017/)
 
 **# Deliverables:**
 * Your write-up in PDF format.
