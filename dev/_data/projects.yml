@@ -12,7 +12,7 @@ featured_projects:
     authors: M. Asadolahzade
     github: https://github.com/asadolahzade/Phoneme-Recognition
     report: /static_files/project_reports/asr.pdf
-    presentation: /static_files/project_presentations/asr.pdf
+    presentation: /static_files/project_presentations/asr.pptx
   
   - title: Weakly Supervised Instance Segmentation using Image Level Annotations
     thumbnail: /static_files/project_thumbnails/weak_sup.jpg
@@ -33,7 +33,7 @@ featured_projects:
     report: /static_files/project_reports/face_ver.pdf
     # jupyter: https://github.com/hadishamgholi/voxceleb2.git
     presentation: /static_files/project_presentations/face_ver.pdf
-    
+
   - title: A Deep Learning Approach for Finding Bad Smells in Software Systems
     thumbnail: /static_files/project_thumbnails/bad_smell.jpg
     abstract: |
