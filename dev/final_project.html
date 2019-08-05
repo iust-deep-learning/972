@@ -16,6 +16,59 @@ permalink: /final_project/
       <li>Final report deadline: <span style='font-weight: bold'>{{ '2019-07-19T10:00:00+3:30' | jdate: "%Y/%m/%e" }}</span></li>
     </ul>
   
-    Please see the <a href='{{ "/final_project/guidelines" | prepend: site.baseurl }}'>Final Project Guidelines</a> for all the details.
-    We will use this page as a showcase for selected projects.
+    Please read the <a href='{{ "/final_project/guidelines" | prepend: site.baseurl }}'>Final Project Guidelines</a> carefully, We'll guide you through all details you need.
+    
+    <br/><br/>
+    We have made our students' projects available; you can use them for inspiration or even contact the authors if you are interested.
+  
+  <br/><br/>
+  <h1>Featured Projects</h1>
+
+  <ul id="archive">
+    {% for proj in site.data.projects.featured_projects %}
+    <li class="archiveposturl" style="background: transparent; border-bottom: none; padding-left: 0">
+    <div class="project-container">
+        {% if proj.thumbnail %}
+        <div class="thumbnail">
+          <div class="center-cropped-projects" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ proj.thumbnail | prepend: site.baseurl }}');">
+            <img src="{{ proj.thumbnail | prepend: site.baseurl }}"/>
+          </div>
+        </div>
+        {% endif %}
+        <div class="content">
+            <span><a style="font-size: 1.2em" href="{{ proj.report | prepend: site.baseurl }}">{{ proj.title }}</a></span><br>
+            <div style="font-size: 0.85em; color: gray; margin-top: -4px">{{ proj.authors }}</div>
+
+            <div style="margin-top: 4px">
+              <strong>Abstract:</strong> {{ proj.abstract }}
+            </div>
+            
+            <div style="margin-top: 7px">
+              <!-- <strong> -->
+              {% include project_links.html project=proj %}
+              <!-- </strong> -->
+            </div>
+        </div>
+    </div>
+    </li>
+    {% endfor %}
+    </ul>
+
+
+    <br/>
+  <h1>Other Projects</h1>
+
+  <ul>
+    {% for proj in site.data.projects.other_projects %}
+    <li>
+        <span><a style="font-size: 1.05em;font-weight: bold" href="{{ proj.report | prepend: site.baseurl }}">{{ proj.title }}</a></span><br>
+        <div style="font-size: 0.85em; color: gray;">{{ proj.authors }}</div>
+        <div style="margin-bottom: 15px; font-size: 0.85em;">
+            <!-- <strong> -->
+            {% include project_links.html project=proj %}
+            <!-- </strong> -->
+          </div>
+    </li>
+    {% endfor %}
+    </ul>
   </div>

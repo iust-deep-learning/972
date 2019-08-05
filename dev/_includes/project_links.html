@@ -1,0 +1,28 @@
+<div>
+  {% if include.project.report %}
+    <a style="margin-right: 10px" title="Download the Full Report (pdf)" href="{{ include.project.report | prepend: site.baseurl }}"> <i class="far fa-file-pdf"></i> Full Report </a>
+  {% endif %}
+
+  {% if include.project.presentation %}
+    <a style="margin-right: 10px" title="Download the Presentation" 
+      href="{{ include.project.presentation | prepend: site.baseurl }}">
+       <i class="far fa-file-powerpoint"></i> Presentation 
+      </a>
+  {% endif %}
+
+
+  {% if include.project.jupyter %}
+    <a style="margin-right: 10px" title="Show the Jupyter notebook" 
+      href="{{ include.project.jupyter }}">
+       <i class="far fa-sticky-note"></i> Jupyter Notebook 
+      </a>
+  {% endif %}
+
+  {% if include.project.github %}
+    <a style="margin-right: 10px" title="Go to the Github page" 
+      href="{{ include.project.github }}">
+       <i class="fab fa-github"></i> Code 
+      </a>
+  {% endif %}
+  
+</div>

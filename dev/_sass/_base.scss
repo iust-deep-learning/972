@@ -491,3 +491,42 @@ a.tosu {
   font-weight: normal;
   font-family: inherit;
 }
+
+.center-cropped-projects {
+    width: 150px;
+    height: 112px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 2px solid #0077CC;
+    border-radius: 5%;
+    margin-right: 10px;
+    background-position: center;
+    background-size: contain;
+}
+  
+/* Set the image to fill its parent and make transparent */
+.center-cropped-projects img {
+    min-height: 100%;
+    min-width: 100%;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+    /* modern browsers */
+    opacity: 0;
+}
+
+.project-container {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .thumbnail {
+        width: 170px;
+    }
+
+    .content {
+        flex: 1;
+    }
+}

@@ -1,0 +1,126 @@
+featured_projects:
+  - title: Transfer Learning for ASR to Deal with Low-Resource Data Problem
+    thumbnail: /static_files/project_thumbnails/asr.jpg
+    abstract: |
+      End-to-end models are the state of the art for Automatic Speech Recognition
+      (ASR) systems. Despite all their advantages, they suffer a significant problem:
+      a huge amounts of training data are required to achieve a good performance. This
+      is a serious challenge for low-resource languages such as Persian. Therefore,
+
+      we need some methods and techniques to overcome this issue. Transfer learn-
+      ing is an effective method can address this problem. Our aim is to perform...
+    authors: M. Asadolahzade
+    github: https://github.com/asadolahzade/Phoneme-Recognition
+    report: /static_files/project_reports/asr.pdf
+    presentation: /static_files/project_presentations/asr.pdf
+  
+  - title: Weakly Supervised Instance Segmentation using Image Level Annotations
+    thumbnail: /static_files/project_thumbnails/weak_sup.jpg
+    abstract: |
+      In this paper, we propose an approach to boost current state-of-the-art architecture of weakly supervised instance segmentation with the use of an special attention mechanism which simulates the notion of biological "top-down" "bottom-up" at- tention systems. Weakly supervised instance segmentation reduce labeling cost with loosing a little accuracy in segmentation...
+    authors: A. Ali Mohammadi
+    github: https://github.com/armanal/RAN-PRM
+    report: /static_files/project_reports/weak_sup.pdf
+    jupyter: https://github.com/armanal/RAN-PRM/blob/master/RAN.ipynb
+    # presentation: /static_files/project_presentations/face_ver.pdf
+
+  - title: Face Verification on Blurred and Profile faces
+    thumbnail: /static_files/project_thumbnails/face_ver.jpg
+    abstract: |
+      Face verification is one of the most important tasks in the field of machine vision and deeply inspected in research. Deep learning is involved in most of the recent works in the field and they have achieved very good results in standard datasets. However, in practice, we may see some major reduction in their performance on real-world applications. These include the pictures which are not taken in stable situations and have some non-clarity (blurriness), or the picture has some face profiles...
+    authors: M. Shamgholi, A. Salehoof
+    github: https://github.com/hadishamgholi/voxceleb2.git
+    report: /static_files/project_reports/face_ver.pdf
+    # jupyter: https://github.com/hadishamgholi/voxceleb2.git
+    presentation: /static_files/project_presentations/face_ver.pdf
+    
+  - title: A Deep Learning Approach for Finding Bad Smells in Software Systems
+    thumbnail: /static_files/project_thumbnails/bad_smell.jpg
+    abstract: |
+      The creation of high quality software is of great importance in the current state of the enterprise systems and web based applications. High quality software should contain certain features including flexibility, maintainability and a well-designed structure. There are several approaches to write high quality software with such features. Correctly adhering to the object-oriented principles is one such approach to make the code more flexible. Developers usually try to leverage these principles, but many times neglecting them due to the lack of time and the extra costs involved...
+    authors: R. Saheb Nassagh
+    github: https://github.com/raanasn/BadSmells-Deep
+    report: /static_files/project_reports/bad_smell.pdf
+    jupyter: https://github.com/raanasn/BadSmells-Deep/blob/master/deep.ipynb
+    presentation: /static_files/project_presentations/bad_smell.pptx
+
+  - title: Ad classification using the text description on Divar dataset
+    thumbnail: /static_files/project_thumbnails/ad.jpg
+    abstract: |
+      In this project, we use different classification techniques for the task of classifying advertisements in the Divar dataset. we first use a Support Vector Machine along with bag-of-words as features and set a baseline. We then use a simple Artificial Neural Network with word embeddings as features and study the effects of different settings for these word embeddings on the performance of the model. Next, we use Convolutional Neural Networks and experiment with various hyper-parameters and find the best setting for this model...
+    authors: M. Nasser
+    github: https://github.com/mehrdad-naser-73/iust-dl-final
+    report: /static_files/project_reports/ad.pdf
+    jupyter: https://github.com/mehrdad-naser-73/iust-dl-final/blob/master/project.ipynb
+    presentation: /static_files/project_presentations/ad.pptx
+
+
+other_projects:
+  - title: Sentiment analysis using BERT (pre-training language representations) and Deep Learning on Persian texts
+    authors: S. Karimi, F. Shahrabadi
+    github: https://github.com/FatemetShahrabadi/FinalProject
+    jupyter: https://github.com/FatemetShahrabadi/FinalProject/blob/master/final.ipynb
+    report: /static_files/project_reports/sent.pdf
+    presentation: /static_files/project_presentations/sent.pptx
+
+  - title: Consumption Forecasting with a Hybrid Deep Learning 
+    authors: H. Hosseinzadeh, R. Bagherpour
+    github: https://github.com/reza-bagherpour/Time-series-data-forecasting-DNN-
+    jupyter: https://github.com/reza-bagherpour/Time-series-data-forecasting-DNN-/tree/master/Time%20series%20forecasting%20DNN
+    report: /static_files/project_reports/cons.pdf
+    presentation: /static_files/project_presentations/cons.pptx
+  
+  - title: Data Augmentation on Language Model
+    authors: F. Rezvainejad
+    github: https://github.com/fatemehrezvani/final-project
+    jupyter: https://github.com/fatemehrezvani/final-project/blob/master/model%20(2).ipynb
+    report: /static_files/project_reports/aug.pdf
+    presentation: /static_files/project_presentations/aug.pptx
+
+  - title: Persian Stance Detection
+    authors: S. Ahangar, M. Zarharan
+    github: https://github.com/samiahr/Persian-stance-detection
+    jupyter: https://github.com/samiahr/Persian-stance-detection/blob/master/Test_results.ipynb
+    report: /static_files/project_reports/stance.pdf
+    presentation: /static_files/project_presentations/stance.pdf
+
+  - title: Identification of Brain Tumors using MRI Image Segmentation
+    authors: F. Abadianzadeh
+    github: https://github.com/AbadianFatemeh/Tumor-Segmentation/
+    jupyter: https://github.com/AbadianFatemeh/Tumor-Segmentation/blob/master/BraTS2018_Final.ipynb
+    report: /static_files/project_reports/mri.pdf
+    presentation: /static_files/project_presentations/mri.html
+
+  - title: Turn Detection In Textual Conversations
+    authors: Z. Sayedi, A. Pourdabiri
+    github: https://github.com/Amin-PD/iust-deep-learning-project
+    report: /static_files/project_reports/turn.pdf
+    presentation: /static_files/project_presentations/turn.pptx
+
+  - title: Deep End-to-End Entity Linking
+    authors: M. Tabasi
+    github: https://github.com/m-tabasy/deep_e2e_el
+    jupyter: https://github.com/m-tabasy/deep_e2e_el/blob/master/e2e_el.ipynb
+    report: /static_files/project_reports/el.pdf
+    # presentation: /static_files/project_presentations/turn.pptx
+
+  - title: Encrypted Packet Classification
+    authors: F. Mahdavi
+    github: https://github.com/ftmmahdavi/Encrypted-Packet-Classification
+    # jupyter: https://github.com/m-tabasy/deep_e2e_el/blob/master/e2e_el.ipynb
+    report: /static_files/project_reports/encp.pdf
+    presentation: /static_files/project_presentations/encp.pptx
+
+  - title: Comprehensive study of Recommender Systems
+    authors: S Jalali, Mahdi Lotfi
+    github: https://github.com/shaghayeghjalali96/movie-recommender-system
+    # jupyter: https://github.com/m-tabasy/deep_e2e_el/blob/master/e2e_el.ipynb
+    report: /static_files/project_reports/recm.pdf
+    presentation: /static_files/project_presentations/recm.pptx
+
+  - title: Speaker Recognition using Deep Learning
+    authors: M. Mohammadi
+    github: https://github.com/mohsenoon/iust-dl97-project
+    jupyter: https://github.com/mohsenoon/iust-dl97-project/blob/master/iust_dl97_project.ipynb
+    report: /static_files/project_reports/recm.pdf
+    # presentation: /static_files/project_presentations/turn.pptx
