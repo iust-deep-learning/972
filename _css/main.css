@@ -605,6 +605,9 @@ a.tosu {
   .project-container .content {
     flex: 1; }
 
+.ta-link a {
+  text-decoration: underline; }
+
 /* .site-nav {
     float: right;
     line-height: 40px;
