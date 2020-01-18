@@ -35,3 +35,4 @@ Subsequent sources will be added to the following section.
 12. [DeepDream](https://colab.research.google.com/drive/1x5mR8poWGahWegYgYQZlxYOgwONjNAXc)
 13. [MNIST with VAE](https://colab.research.google.com/drive/1QGjUO2np6HBbbjm2Nbof885DN4IFY1dw)
 14. [GAN for frog generation](https://colab.research.google.com/drive/1XREv3bgx0YZ8cyUEfKLvS7GfL2dYBwfT)
+15. [TensorFlow 2 Tutorial (Official Page)](https://github.com/iust-deep-learning/tensorflow-2-tutorial) - A set of tutorials, prepared by IUST, on TensorFlow 2 (basically a mini-course): It covers most of the required materials to start coding in TensorFlow, such as defining the computation, designing the model, working the input pipeline, and many more.

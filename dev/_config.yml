@@ -1,7 +1,7 @@
 # Site settings
 title: Iran University of Science and Technology (IUST)
-course_name: Deep Learning
-course_description: "This course is a dive into applied deep learning. The students will learn how to implement and train neural networks in a variety of tasks across image, sound, and text processing. As a prerequisite, the students are expected to have a basic knowledge of neural networks and be familiar with the concepts behind their structure and training (backpropagation, etc)." 
+course_name: Deep Learning 
+course_description: "This graduate course is a dive into applied deep learning. The students will learn how to implement and train neural networks in a variety of tasks across image, sound, and text processing. As a prerequisite, the students are expected to have a basic knowledge of neural networks and be familiar with the concepts behind their structure and training (backpropagation, etc)." 
 course_semester: "Spring 1398 (2019)"
 description: |
     Instructor: Mohammad Taher Pilehvar
